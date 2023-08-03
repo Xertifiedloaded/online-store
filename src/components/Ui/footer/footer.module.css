@@ -1,0 +1,75 @@
+.main {
+    width: 85%;
+    margin: 20px auto 0;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 4fr));
+}
+
+.main .footer_items a:hover,
+.main .footer_items p:hover {
+    color: var(--search);
+}
+
+.main .footer_items a,
+.main .footer_items p {
+    display: block;
+    margin: 15px 0;
+    font-size: 16px;
+    color: #2b3d4c;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.main .footer_items a {
+    width: 50%;
+}
+
+.main .footer_items legend {
+    font-size: 24px;
+    font-weight: bolder;
+    width: 50%;
+}
+
+.main .footer_items .store>img {
+    width: 100%;
+}
+
+.main .footer_items .store {
+    padding: 5px 8px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid var(--primary);
+    transition: .7s ease;
+    width: 60%;
+}
+
+.main .footer_items .store:hover,
+.methods:hover {
+    transform: translateY(-7px);
+}
+
+.main .footer_items .icons a {
+    display: inline;
+}
+
+.main .footer_items .icons a:not(:last-child) {
+    margin: 0 25px 0 0;
+
+}
+
+.methods {
+    padding: 5px 8px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid var(--primary);
+    transition: .5s ease;
+    width: 85%;
+}
+
+@media screen and (max-width:600px) {
+    .methods {
+        width: 70%;
+    }
+}

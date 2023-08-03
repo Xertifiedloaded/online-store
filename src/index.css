@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #00A97F;
+  --light: rgba(133, 198, 218, 255);
+  --dark: rgba(13, 13, 10, 255);
+  --darker: rgba(234, 157, 90, 255);
+  --lighter: #cbd6cf;
+  --lighter1: #c3dacc86;
+  --lighter2: #e4f0e9da;
+  --darken: #cca27e;
+  --color: orangered;
+  --search: #FF6000;
+  --primary1: #2b3d4c;
+  --primary2: #354d61;
+  --blue: #0d6efd;
+  --body-color-rgb: rgba(33,37,41);
+--danger: rgba(220,53,69);
+}
+
+.eachIcon:hover {
+  color: #cca27e;
+}
+
+.eachIcon {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  transition: 1s all;
+  /* vertical-align: middle; */
+}

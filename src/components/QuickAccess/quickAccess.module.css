@@ -1,0 +1,57 @@
+.boxContainer {
+    width: 50%;
+    margin: 20px auto 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.box1 {
+    text-align: center;
+    border: 1px solid #00A97F;
+    width: 16.66666%;
+    border-radius: 5px;
+padding: 10px 0;
+}
+
+.box1 .imgCont {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.box1 .imgCont img {
+    width: 100%;
+
+}
+
+.box1>h4 {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+/* ................second............... */
+
+
+
+
+
+
+/* ...................................... */
+@media screen and (max-width:600px) {
+    .boxContainer {
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 20px auto 0;
+
+
+    }
+
+    .box1 {
+        flex: 0 0 auto;
+        width: 32%;
+    }
+
+}

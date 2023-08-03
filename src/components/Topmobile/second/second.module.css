@@ -1,0 +1,17 @@
+.flex{
+    display: flex;
+
+    width: 90%;
+        margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.main{
+    background: var(--lighter1);
+        padding: 15px 0;
+  
+}
+.Icon1{
+    display: flex;
+    gap: 20px;
+}

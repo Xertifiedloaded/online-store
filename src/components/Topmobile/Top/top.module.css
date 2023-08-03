@@ -1,0 +1,31 @@
+.main {
+
+    background: var(--lighter1);
+}
+
+.main .flex {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .flex>p {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.main .flex>p:last-child {
+    display: flex;
+    gap: 60px;
+    color: var(--blue);
+}
+
+.Icon1 {
+    display: flex;
+    gap: 20px;
+}

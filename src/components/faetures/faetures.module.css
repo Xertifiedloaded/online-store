@@ -1,0 +1,19 @@
+.main{
+    width: 85%;
+    margin: 50px auto;
+}
+.main .feature{
+    text-align: center;
+}
+.main .feature>h1{
+    color: var(--search);
+    font-size: 40px;
+    font-weight: 600;
+}
+.main .feature>h6{
+    color: var(--primary);
+}
+.featuredProduct{
+    margin-top: 10px;
+
+}
