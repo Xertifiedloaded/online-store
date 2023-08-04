@@ -1,0 +1,13 @@
+.empty {
+    min-height: 80vh;
+    display: grid;
+
+    background: var(--lighter1);
+    place-items: center;
+}
+
+.empty p {
+    padding-top: 10px;
+    text-align: center;
+}
+

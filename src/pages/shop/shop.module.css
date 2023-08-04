@@ -1,0 +1,52 @@
+section>.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    place-items: center;
+    margin: 20px auto;
+    width: 90%;
+}
+
+/* hero shop */
+section>.shopHero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/images/shopHero.jpeg);
+}
+
+section>.shopHero h1,
+section>.shopHero p {
+    color: white;
+}
+section>.shopHerop p {
+    color: white;
+}
+section .shopHero h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+section .shopHero p {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+section .shopHero h1>span {
+    color: var(--primary);
+}
+
+
+
+@media screen and (max-width:600px) {
+    section>.shopHero h1 {
+  font-size: 35px;
+    }
+}

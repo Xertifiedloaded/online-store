@@ -1,0 +1,130 @@
+
+
+.cartSection {
+    padding: 5px 0;
+
+    background: var(--lighter1);
+}
+
+.cartSection .cartItem {
+    /* display: grid; */
+    /* background: red; */
+}
+
+.cartSection .cartItem .cart {
+    background: white;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.cart .cartImgContainer {
+    width: 20%;
+}
+
+.cart .cartDetailsBox {
+    width: 70%;
+}
+
+.cart .cartImgContainer>img {
+    width: 80%;
+}
+
+.cart .cartDetailsBox h1 {
+    font-size: 17px;
+    padding: 5px 0;
+    text-transform: capitalize;
+}
+
+.cart .cartDetailsBox p {
+    font-size: 13px;
+
+}
+
+.cart .cartDetailsBox p:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.coupon .qty {
+    display: flex;
+    gap: 100px;
+    justify-content: flex-end;
+}
+
+.itemQty {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.itemQty>button:first-child {
+    background: red;
+}
+
+.itemQty>button:last-child {
+    background: yellow;
+}
+
+.itemQty>button,
+.delete>button {
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.delete>button {
+    background: var(--primary1);
+}
+
+.itemQty>span {
+    padding: 10px 15px;
+    border: 1px solid var(--border);
+}
+
+.input {
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    text-transform: capitalize;
+}
+
+.input>input {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .empty {
+        min-height: 40vh;
+    }
+
+    .cartSection .cartItem .cart {
+        width: 95%;
+        display: block;
+
+    }
+
+    .cart .cartImgContainer,
+    .cart .cartDetailsBox {
+        width: 50%;
+    }
+
+    .cartSection .cartItem .cart {
+        flex-direction: column;
+    }
+}

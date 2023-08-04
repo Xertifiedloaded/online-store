@@ -1,0 +1,104 @@
+.row .card {
+    max-width: 250px;
+    border-radius: 20px;
+    transition: .5s ease;
+    max-width: 250px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+}
+
+.row .card:hover {
+    background: white;
+    box-shadow: var(--boxShadow);
+}
+
+.row .card .cardImg {
+    border-radius: 20px;
+    padding: 0 0 20px;
+    min-width: 100%;
+    min-height: 200px;
+}
+
+.row .card .items {
+    padding: 20px 16px;
+}
+
+.row .card .cardImg img {
+    width: 100%;
+}
+
+.details span {
+    font-size: 13px;
+    margin: 0 0 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.details>h5 {
+    font-size: 1rem;
+    margin: 5px 0;
+    text-transform: capitalize;
+}
+
+.star {
+    padding: 10px 0;
+}
+
+.productName {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.productName span:first-child {
+    color: var(--primary);
+}
+
+.productName span:last-child {
+    color: rgb(234, 157, 90);
+    font-weight: 400;
+}
+
+
+.viewDetails {
+    padding: 0 0 15px;
+    text-align: center;
+}
+
+.viewDetails>a {
+    color: #535bf2;
+    font-size: 20px;
+    text-transform: capitalize;
+    transition: 0.4s ease;
+}
+
+.viewDetails>h3:hover {
+    color: var(--danger);
+}
+
+.viewDetails>button {
+    margin: 10px 0;
+    background: var(--primary2);
+    padding: 15px 25px;
+    transition: .6s ease;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-transform: capitalize;
+}
+.viewDetails>button:hover{
+    background: transparent;
+    color: black;
+    font-weight: 500;
+    border: 1px solid var(--border);
+}
+
+.viewDetails>button span:first-child {
+    margin-right: 5px;
+}
+a{
+    display: block;
+}
+

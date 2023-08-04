@@ -1,0 +1,42 @@
+.main {
+    width: 80%;
+    margin: 100px auto;
+    background-image: url(../../assets/images//hero2.jpeg);
+    background-size: cover;
+    height: 30vh;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255);
+    display: flex;
+    line-height: 1.7;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.main>img {
+    width: 100%;
+}
+
+.main h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.main h5 {
+    font-size: 1.25rem;
+}
+.main .btn >button{
+    padding: 15px 25px ;
+    border-radius: 5px;
+    border: none;
+}
+@media screen and (max-width:600px) {
+    .main h3{
+        /* font-size: 16px; */
+        text-align: center;
+    }
+        .main{
+            padding: 0 10px;
+        }
+}

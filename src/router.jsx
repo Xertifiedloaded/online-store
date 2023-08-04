@@ -6,6 +6,8 @@ import Shop from './pages/shop/shop'
 import Blog from './pages/blog/blog'
 import About from './pages/about/About'
 import Contact from './pages/contact/Contact'
+import Cart from './pages/cart/cart'
+import ProductDetails from './components/productDetails/ProductDetails'
 
 const Router = () => {
     return useRoutes([
@@ -32,6 +34,14 @@ const Router = () => {
                 {
                     path: "/contact",
                     element: <Contact />,
+                },
+                {
+                    path: "/cart",
+                    element: <Cart />,
+                },
+                {
+                    path: "/details",
+                    element: <ProductDetails/>,
                 },
             ]
         }

@@ -22,6 +22,5 @@ export const NavContent = [
     {
         Name: "contact",
         Link: '/contact',
-
     },
 ]

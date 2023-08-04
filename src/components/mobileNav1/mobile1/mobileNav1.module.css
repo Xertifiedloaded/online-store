@@ -38,7 +38,7 @@
 }
 
 .search {
-    margin: 10px 0 0 ;
+    margin: 10px 0 0;
     height: 40px;
     display: flex;
     align-items: center;
@@ -54,15 +54,29 @@
 
 }
 
+.cartMobile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+.cartMobile a>span{
+position: absolute;
+left: 50px;
+top: 8px;
+
+}
 .search>button {
     height: 100%;
     width: 20%;
     border: 1px solid #dee2e6;
     background: transparent;
 }
-.navMenu a{
+
+.navMenu a {
     display: block;
 }
-.navMenu a:not(:last-child){
-    margin:  30px 0;
+
+.navMenu a:not(:last-child) {
+    margin: 30px 0;
 }
