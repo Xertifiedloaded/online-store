@@ -40,7 +40,7 @@ const Router = () => {
                     element: <Cart />,
                 },
                 {
-                    path: "/details",
+                    path: "/details/:id",
                     element: <ProductDetails/>,
                 },
             ]

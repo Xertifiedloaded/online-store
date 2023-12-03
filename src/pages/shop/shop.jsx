@@ -28,7 +28,7 @@ const Shop = () => {
                 <div className={classes.row}>
 
                     {[...Products, ...Products2].map((product, id) => (
-                        <Shopproduct {...product} />
+                        <Shopproduct {...product} key ={id} />
                     ))}
 
                 </div>

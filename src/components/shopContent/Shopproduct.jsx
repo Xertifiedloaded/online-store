@@ -4,7 +4,7 @@ import { useContext } from 'react'
 import { UserShopContext } from '../contextApi/shopContext'
 import ReactStars from 'react-stars'
 import { Link } from 'react-router-dom'
-const Shopproduct = ({ id, name, image, status, rate, brand, price }) => {
+const Shopproduct = ({key, id, name, image, status, rate, brand, price }) => {
     const {
         viewProductDetails,
         addToCart,
@@ -37,8 +37,9 @@ const Shopproduct = ({ id, name, image, status, rate, brand, price }) => {
                                     activeColor="rgb(234, 157, 90)"
                                 />
                             </div>
+                            //single product//
                             <div className={classes.viewDetails}>
-                                <Link to={'/details'} onClick={() => viewProductDetails(id)}>view Details</Link>
+                                <Link key={id.toString()} to={`/details/${id}`} onClick={() => viewProductDetails(id)}>view Details</Link>
                                 <button onClick={() => addToCart(id)}>
                                     <span>Add To cart</span>
                                     <span>
